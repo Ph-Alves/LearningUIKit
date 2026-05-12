@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		EF3BF3D62FB270A5003513BA /* LearningUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9451CF2FB2B9200058D30C /* LearningUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EF9451E12FB2B9210058D30C /* Exceptions for "LearningUIKit" folder in "LearningUIKit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EF9451CE2FB2B9200058D30C /* LearningUIKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF3BF3D82FB270A5003513BA /* LearningUIKit */ = {
+		EF9451D12FB2B9200058D30C /* LearningUIKit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EF9451E12FB2B9210058D30C /* Exceptions for "LearningUIKit" folder in "LearningUIKit" target */,
+			);
 			path = LearningUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF3BF3D32FB270A5003513BA /* Frameworks */ = {
+		EF9451CC2FB2B9200058D30C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF3BF3CD2FB270A5003513BA = {
+		EF9451C62FB2B9200058D30C = {
 			isa = PBXGroup;
 			children = (
-				EF3BF3D82FB270A5003513BA /* LearningUIKit */,
-				EF3BF3D72FB270A5003513BA /* Products */,
+				EF9451D12FB2B9200058D30C /* LearningUIKit */,
+				EF9451D02FB2B9200058D30C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF3BF3D72FB270A5003513BA /* Products */ = {
+		EF9451D02FB2B9200058D30C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF3BF3D62FB270A5003513BA /* LearningUIKit.app */,
+				EF9451CF2FB2B9200058D30C /* LearningUIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF3BF3D52FB270A5003513BA /* LearningUIKit */ = {
+		EF9451CE2FB2B9200058D30C /* LearningUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF3BF3E42FB270A6003513BA /* Build configuration list for PBXNativeTarget "LearningUIKit" */;
+			buildConfigurationList = EF9451E22FB2B9210058D30C /* Build configuration list for PBXNativeTarget "LearningUIKit" */;
 			buildPhases = (
-				EF3BF3D22FB270A5003513BA /* Sources */,
-				EF3BF3D32FB270A5003513BA /* Frameworks */,
-				EF3BF3D42FB270A5003513BA /* Resources */,
+				EF9451CB2FB2B9200058D30C /* Sources */,
+				EF9451CC2FB2B9200058D30C /* Frameworks */,
+				EF9451CD2FB2B9200058D30C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EF3BF3D82FB270A5003513BA /* LearningUIKit */,
+				EF9451D12FB2B9200058D30C /* LearningUIKit */,
 			);
 			name = LearningUIKit;
 			packageProductDependencies = (
 			);
 			productName = LearningUIKit;
-			productReference = EF3BF3D62FB270A5003513BA /* LearningUIKit.app */;
+			productReference = EF9451CF2FB2B9200058D30C /* LearningUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF3BF3CE2FB270A5003513BA /* Project object */ = {
+		EF9451C72FB2B9200058D30C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
-					EF3BF3D52FB270A5003513BA = {
+					EF9451CE2FB2B9200058D30C = {
 						CreatedOnToolsVersion = 26.4.1;
 					};
 				};
 			};
-			buildConfigurationList = EF3BF3D12FB270A5003513BA /* Build configuration list for PBXProject "LearningUIKit" */;
+			buildConfigurationList = EF9451CA2FB2B9200058D30C /* Build configuration list for PBXProject "LearningUIKit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = EF3BF3CD2FB270A5003513BA;
+			mainGroup = EF9451C62FB2B9200058D30C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EF3BF3D72FB270A5003513BA /* Products */;
+			productRefGroup = EF9451D02FB2B9200058D30C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF3BF3D52FB270A5003513BA /* LearningUIKit */,
+				EF9451CE2FB2B9200058D30C /* LearningUIKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF3BF3D42FB270A5003513BA /* Resources */ = {
+		EF9451CD2FB2B9200058D30C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF3BF3D22FB270A5003513BA /* Sources */ = {
+		EF9451CB2FB2B9200058D30C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,71 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF3BF3E22FB270A6003513BA /* Debug */ = {
+		EF9451E32FB2B9210058D30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29HC4SA3R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearningUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.paulo.LearningUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF9451E42FB2B9210058D30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29HC4SA3R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearningUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.paulo.LearningUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF9451E52FB2B9210058D30C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,18 +255,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		EF3BF3E32FB270A6003513BA /* Release */ = {
+		EF9451E62FB2B9210058D30C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,109 +313,38 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		EF3BF3E52FB270A6003513BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29HC4SA3R9;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.paulo.LearningUIKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		EF3BF3E62FB270A6003513BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29HC4SA3R9;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.paulo.LearningUIKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF3BF3D12FB270A5003513BA /* Build configuration list for PBXProject "LearningUIKit" */ = {
+		EF9451CA2FB2B9200058D30C /* Build configuration list for PBXProject "LearningUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF3BF3E22FB270A6003513BA /* Debug */,
-				EF3BF3E32FB270A6003513BA /* Release */,
+				EF9451E52FB2B9210058D30C /* Debug */,
+				EF9451E62FB2B9210058D30C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF3BF3E42FB270A6003513BA /* Build configuration list for PBXNativeTarget "LearningUIKit" */ = {
+		EF9451E22FB2B9210058D30C /* Build configuration list for PBXNativeTarget "LearningUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF3BF3E52FB270A6003513BA /* Debug */,
-				EF3BF3E62FB270A6003513BA /* Release */,
+				EF9451E32FB2B9210058D30C /* Debug */,
+				EF9451E42FB2B9210058D30C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF3BF3CE2FB270A5003513BA /* Project object */;
+	rootObject = EF9451C72FB2B9200058D30C /* Project object */;
 }
