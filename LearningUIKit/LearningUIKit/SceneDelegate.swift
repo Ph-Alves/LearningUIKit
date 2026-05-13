@@ -7,15 +7,19 @@
 
 import UIKit
 
+// usa responder para gerenciar eventos
+// usa UIWindoSceneDelegate para gerenciar tarefas específicas do app em uma cena.
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
+    // Backdrop da tela, gerencia eventos e despacha eventos para controllers e views.
     var window: UIWindow?
 
+    // Função principal do UIWindowSceneDelegate para definir a window principal.
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let scene = scene as? UIWindowScene else { return }
-        window = UIWindow(windowScene: scene)
-        window?.rootViewController = ViewController()
-        window?.makeKeyAndVisible()
+        self.window = UIWindow(windowScene: scene)
+        self.window?.rootViewController = ViewController()
+        self.window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

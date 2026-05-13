@@ -7,9 +7,12 @@
 
 import UIKit
 
+// main define que aqui começa o app.
+// UIApplicationDelegate para compartilhar métodos de gerenciamento do ciclo de vida do app.
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // Para quando o app lançar
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

@@ -9,18 +9,22 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
-    let campo = UITextField()
+    lazy var background: UIView = {
+        let view = UIView()
+        view.frame = CGRect(x: 10, y: 10, width: 100, height: 100)
+        view.backgroundColor = .red
+        return view
+    }()
+    
+    var outraView: UIView = UIView(frame: CGRect(x: 10, y: 10, width: 200, height: 200))
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        campo.delegate = self
-        self.view.addSubview(campo)
+        
+        self.outraView.backgroundColor = .blue
+        self.view.addSubview(outraView)
+        self.view.addSubview(background)
         // Do any additional setup after loading the view.
-    }
-
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
     }
 }
 
