@@ -9,21 +9,33 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
-    lazy var background: UIView = {
-        let view = UIView()
-        view.frame = CGRect(x: 10, y: 10, width: 100, height: 100)
-        view.backgroundColor = .red
-        return view
+    let button = UIButton()
+    
+    var varButton: UIButton = {
+       let button = UIButton()
+        button.frame = CGRect(x: 100, y: 200, width: 100, height: 100)
+        button.setTitle("Tap me", for: .normal)
+        button.setTitleColor(.blue, for: .normal)
+        return button
     }()
     
-    var outraView: UIView = UIView(frame: CGRect(x: 10, y: 10, width: 200, height: 200))
-
+    lazy var lazyButton: UIButton = {
+        let button = UIButton()
+        button.frame = CGRect(x: 100, y: 300, width: 100, height: 100)
+        button.setTitle("Tap me", for: .normal)
+        button.setTitleColor(.red, for: .normal)
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.outraView.backgroundColor = .blue
-        self.view.addSubview(outraView)
-        self.view.addSubview(background)
+        button.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        button.setTitle("Tap me", for: .normal)
+        
+        self.view.addSubview(button)
+        self.view.addSubview(varButton)
+        self.view.addSubview(lazyButton)
         // Do any additional setup after loading the view.
     }
 }
