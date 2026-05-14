@@ -32,11 +32,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         button.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         button.setTitle("Tap me", for: .normal)
+        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         
         self.view.addSubview(button)
         self.view.addSubview(varButton)
         self.view.addSubview(lazyButton)
+        
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func buttonTapped(_ sender: Any) {
+        present(ModalViewController(), animated: true)
+        print("Button tapped")
     }
 }
 
