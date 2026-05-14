@@ -42,7 +42,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @objc func buttonTapped(_ sender: Any) {
-        present(ModalViewController(), animated: true)
+//        present(ModalViewController(), animated: true)
+        let vc = ModalViewController()
+        navigationController?.pushViewController(vc, animated: true)
         print("Button tapped")
     }
 }
