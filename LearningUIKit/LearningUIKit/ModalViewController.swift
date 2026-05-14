@@ -8,19 +8,13 @@
 import UIKit
 
 class ModalViewController: UIViewController {
-    
-    lazy var label: UILabel = {
-        var label = UILabel()
-        label.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-        label.text = "Hello World"
-        label.textColor = .red
-        return label
-    }()
+    var viewTest: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.addSubview(label)
+        self.viewTest = ViewTest(frame: self.view.frame)
+        self.view.addSubview(viewTest)
         // Do any additional setup after loading the view.
     }
     
