@@ -1,31 +1,30 @@
 //
-//  ViewTesteViewController.swift
-//  LearningUIKitStoryboard
+//  ModalViewController.swift
+//  LearningUIKit
 //
 //  Created by Paulo Henrique Costa Alves on 14/05/26.
 //
 
 import UIKit
 
-class ViewTesteViewController: UIViewController {
+class ModalViewController: UIViewController {
     
-    @IBOutlet weak var myButton: UIButton!
-    
+    lazy var label: UILabel = {
+        var label = UILabel()
+        label.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+        label.text = "Hello World"
+        label.textColor = .red
+        return label
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        myButton.setTitle("Click me", for: .normal)
-        myButton.setTitleColor(.red, for: .normal)
+
+        self.view.addSubview(label)
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func buttonPressed(_ sender: UIButton) {
-        print("Button pressed!")
-    }
-    
-    @IBAction func testeeee(_ sender: Any) {
-    }
-    
+
     /*
     // MARK: - Navigation
 
