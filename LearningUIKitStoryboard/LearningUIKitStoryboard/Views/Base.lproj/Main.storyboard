@@ -22,8 +22,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YHq-7U-VX6"/>
-                                    <action selector="testeeee:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="DfT-Wm-9rc"/>
+                                    <segue destination="eeQ-qk-4Sv" kind="presentation" id="Nuu-uT-kgP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -31,12 +30,40 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="myButton" destination="R5O-a0-crj" id="Mbl-t0-8Nb"/>
+                        <outlet property="myButton" destination="R5O-a0-crj" id="FRa-5g-XnR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="141" y="131"/>
+        </scene>
+        <!--ViewController-->
+        <scene sceneID="OdM-fh-pjS">
+            <objects>
+                <viewController title="ViewTesteViewController" id="eeQ-qk-4Sv" userLabel="ViewController" customClass="ViewController" customModule="LearningUIKitStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lsE-4F-2eN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZ4-m3-jVk">
+                                <rect key="frame" x="186" y="332" width="17" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qO9-ub-bNB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YW3-lB-Ezz"/>
+                    <connections>
+                        <outlet property="OiText" destination="pZ4-m3-jVk" id="e4b-Hl-eLp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fL6-XJ-hov" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="131"/>
         </scene>
     </scenes>
     <resources>

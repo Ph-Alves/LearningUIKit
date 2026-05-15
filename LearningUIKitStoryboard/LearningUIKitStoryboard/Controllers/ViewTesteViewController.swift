@@ -19,13 +19,6 @@ class ViewTesteViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func buttonPressed(_ sender: UIButton) {
-        print("Button pressed!")
-    }
-    
-    @IBAction func testeeee(_ sender: Any) {
-    }
-    
     /*
     // MARK: - Navigation
 
